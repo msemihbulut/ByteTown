@@ -317,6 +317,7 @@
 "Assets/Scripts/BuildingPreset.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/City.cs"
+"Assets/Scripts/InfoSceneTexts.cs"
 "Assets/Scripts/MainMenuTransitions.cs"
 "Assets/Scripts/MenuManagerInGame.cs"
 "Assets/Scripts/PlayerInfos.cs"

@@ -14264,7 +14264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b9ab9916933fcf4c8c294d803291ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 10000
+  money: 1000
   currentPopulation: 0
   currentJobs: 0
   currentFood: 0

@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - BuildingPreset
     - CameraController
     - City
+    - InfoSceneTexts
     - MainMenuTransitions
     - MenuManagerInGame
     - PlayerInfos
@@ -63,14 +64,26 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenuTransitions
     methodName: OpenSettings
   - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
+  - assembly: Assembly-CSharp
     fullTypeName: MainMenuTransitions
     methodName: BackToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
   - assembly: Assembly-CSharp
     fullTypeName: MainMenuTransitions
     methodName: OpenPage
   - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
+  - assembly: Assembly-CSharp
     fullTypeName: MainMenuTransitions
     methodName: ExitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
   - assembly: Assembly-CSharp
     fullTypeName: PlayerInfos
     methodName: OnValueChanged
@@ -78,20 +91,50 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenuTransitions
     methodName: BackToMainMenu
   - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
+  - assembly: Assembly-CSharp
     fullTypeName: MainMenuTransitions
     methodName: OpenHowToPlay
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
   - assembly: Assembly-CSharp
     fullTypeName: MainMenuTransitions
     methodName: BackToMainMenu
   - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
+  - assembly: Assembly-CSharp
     fullTypeName: MainMenuTransitions
     methodName: OpenPage
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
   - assembly: Assembly-CSharp
     fullTypeName: MainMenuTransitions
     methodName: OpenGameScene
   - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
+  - assembly: Assembly-CSharp
     fullTypeName: PlayerInfos
     methodName: OnEndEditText
+  - assembly: Assembly-CSharp
+    fullTypeName: InfoSceneTexts
+    methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: InfoSceneTexts
+    methodName: NextPage
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundControllerInMainMenu
+    methodName: MainMenuButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: SoundEffectsController
+    methodName: OnValueChanged
   - assembly: Assembly-CSharp
     fullTypeName: ToolbarTransations
     methodName: OpenFoodToolbar
@@ -617,43 +660,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16654}
     - Class: 114
-      Script: {instanceID: 17090}
+      Script: {instanceID: 17092}
     - Class: 114
-      Script: {instanceID: 17724}
+      Script: {instanceID: 17726}
     - Class: 114
-      Script: {instanceID: 17940}
+      Script: {instanceID: 17942}
     - Class: 114
-      Script: {instanceID: 18244}
+      Script: {instanceID: 18246}
     - Class: 114
-      Script: {instanceID: 18454}
+      Script: {instanceID: 18456}
     - Class: 114
-      Script: {instanceID: 18490}
+      Script: {instanceID: 18492}
     - Class: 114
-      Script: {instanceID: 18524}
+      Script: {instanceID: 18526}
     - Class: 114
-      Script: {instanceID: 18906}
+      Script: {instanceID: 18908}
     - Class: 114
-      Script: {instanceID: 19284}
+      Script: {instanceID: 19286}
     - Class: 114
-      Script: {instanceID: 19294}
+      Script: {instanceID: 19296}
     - Class: 114
-      Script: {instanceID: 20564}
+      Script: {instanceID: 20238}
     - Class: 114
-      Script: {instanceID: 20740}
+      Script: {instanceID: 20566}
     - Class: 114
-      Script: {instanceID: 20888}
+      Script: {instanceID: 20742}
     - Class: 114
-      Script: {instanceID: 21384}
+      Script: {instanceID: 20890}
     - Class: 114
-      Script: {instanceID: 21714}
+      Script: {instanceID: 21386}
     - Class: 114
-      Script: {instanceID: 22102}
+      Script: {instanceID: 21716}
     - Class: 114
-      Script: {instanceID: 22212}
+      Script: {instanceID: 22104}
     - Class: 114
-      Script: {instanceID: 22388}
+      Script: {instanceID: 22214}
     - Class: 114
-      Script: {instanceID: 22440}
+      Script: {instanceID: 22390}
+    - Class: 114
+      Script: {instanceID: 22442}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -681,6 +726,67 @@ ScriptsOnlyBuild:
     - Class: 850595691
       Script: {instanceID: 0}
     - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/InfoScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16654}
+    - Class: 114
+      Script: {instanceID: 16926}
+    - Class: 114
+      Script: {instanceID: 17726}
+    - Class: 114
+      Script: {instanceID: 17942}
+    - Class: 114
+      Script: {instanceID: 18246}
+    - Class: 114
+      Script: {instanceID: 20236}
+    - Class: 114
+      Script: {instanceID: 20566}
+    - Class: 114
+      Script: {instanceID: 20890}
+    - Class: 114
+      Script: {instanceID: 21386}
+    - Class: 114
+      Script: {instanceID: 21716}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -710,29 +816,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16654}
     - Class: 114
-      Script: {instanceID: 17724}
+      Script: {instanceID: 17726}
     - Class: 114
-      Script: {instanceID: 17940}
+      Script: {instanceID: 17942}
     - Class: 114
-      Script: {instanceID: 17992}
+      Script: {instanceID: 17994}
     - Class: 114
-      Script: {instanceID: 18244}
-    - Class: 114
-      Script: {instanceID: 20234}
+      Script: {instanceID: 18246}
     - Class: 114
       Script: {instanceID: 20236}
     - Class: 114
-      Script: {instanceID: 20564}
+      Script: {instanceID: 20238}
     - Class: 114
-      Script: {instanceID: 20736}
+      Script: {instanceID: 20566}
     - Class: 114
-      Script: {instanceID: 20888}
+      Script: {instanceID: 20738}
     - Class: 114
-      Script: {instanceID: 21384}
+      Script: {instanceID: 20890}
     - Class: 114
-      Script: {instanceID: 21714}
+      Script: {instanceID: 21386}
     - Class: 114
-      Script: {instanceID: 22714}
+      Script: {instanceID: 21716}
+    - Class: 114
+      Script: {instanceID: 22716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -818,13 +924,19 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 78e73a51ed3519100c912dccb5290d15
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InfoSceneTexts
+  - hash:
+      serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9004e35960ced78889b3d2ba950008b5
+      Hash: 982adad3879cb8b9823f414894bfadf2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SoundEffectsController
@@ -1857,5 +1969,6 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/InfoScene.unity
   - Assets/Scenes/InGame.unity
-  playerPath: C:/Users/taham/Desktop/BuildDeneme/My project.exe
+  playerPath: C:/Users/taham/Desktop/FinalBuild/Byte Town.exe
