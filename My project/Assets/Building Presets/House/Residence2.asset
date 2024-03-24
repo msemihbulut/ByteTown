@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e1af6061441e241b5707dab107ac03, type: 3}
+  m_Name: Residence2
+  m_EditorClassIdentifier: 
+  cost: 200
+  costPerTurn: 40
+  prefab: {fileID: 1312602553612001887, guid: 317e0c137ac665d4f84b075887cdc5cb, type: 3}
+  population: 20
+  jobs: 0
+  food: 0
+  smartCityPoint: 0
